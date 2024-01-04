@@ -1,0 +1,125 @@
+span {
+  overflow: visible !important;
+}
+a{
+  color:inherit !important
+}
+.nav-container {
+  margin: 0;
+  /* border: 1px black solid; */
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+  background: linear-gradient(to left, #c22495e7, #4377d1);
+  backdrop-filter: blur(5px);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.28);
+}
+.stars-box {
+  /* border: 1px white solid; */
+  height: 40px;
+}
+.forms {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.ui.form .fields {
+  display: block !important;
+}
+.ui.input {
+  width: 250px !important;
+  border: 2px solid rgba(0, 0, 0, 0.542) !important;
+  border-radius: 3px;
+}
+
+.nav-container input {
+  border: 1px black solid;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+  color: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+  border-radius: 25px;
+}
+input:focus {
+  outline: 1px solid blue !important;
+}
+.movies-list {
+  min-height: 80vh;
+  padding: 50px 100px;
+}
+.movies-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.movie-item {
+  box-sizing: border-box;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  max-width: 340px;
+  min-width: 300px;
+  overflow: hidden;
+
+  border-radius: 5px;
+}
+
+.form-add-movie {
+  text-align: center;
+}
+.ui.button {
+  background-color: #4377d1 !important;
+  color: white !important;
+  transition: all 0.2s ease !important;
+}
+.ui.button:hover {
+  scale: 1.1;
+}
+.ui.button:active {
+  scale: 0.9;
+}
+.movie-item-cover {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0 0 35px 15px;
+}
+.movie-item-content {
+  padding: 5px 15px;
+}
+.Title {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+
+.stars-box {
+  height: 50px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-right: 50px;
+}
+.undo {
+  cursor: pointer;
+}
+button{
+  
+  background-color:#ff6158; ; 
+  color: white;
+  padding: 15px 15px;
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
